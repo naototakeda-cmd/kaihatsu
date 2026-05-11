@@ -312,11 +312,14 @@ h1, h2, h3, h4, p { margin: 0; }
   font-weight: 700;
   color: var(--color-navy);
   background: var(--color-cream);
-  padding: 10px 0;
+  padding: 10px 20px;
   margin-bottom: -8px;
   border-radius: 10px 10px 0 0;
   position: relative;
   z-index: 1;
+  text-align: center;
+  width: 100%;
+  max-width: 420px;
 }
 .cta-deco {
   display: inline-block;
